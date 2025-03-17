@@ -1,0 +1,6 @@
+baseURL = 'https://esacteksab.com/'
+languageCode = 'en-us'
+title = 'esacteksab'
+theme = 'simpl'
+
+[[menus.main]]
