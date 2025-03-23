@@ -322,7 +322,7 @@ Dark Mode
   .labeled-highlight__label {
     @apply italic;
     position: absolute;
-    translate: 0% -50%;
+    translate: 0 -50%;
     pre {
       @apply mt-1.5;
     }
@@ -395,7 +395,7 @@ Light Mode
   .labeled-highlight__label {
     @apply italic;
     position: absolute;
-    translate: 0%;
+    translate: 0;
     pre {
       @apply mt-1.5;
     }
@@ -429,11 +429,11 @@ Generated using: hugo gen chromastyles --style=github-dark -- then heavily modif
 .bg {
   /* @apply bg-dark-secondary; */
   @apply bg-dark-secondary;
-  color: var(--text-neutral-50);
+  @apply text-neutral-50;
 }
 /* PreWrapper */
 .chroma {
-  color: var(--text-neutral-50);
+  @apply text-neutral-50;
   @apply bg-dark-secondary;
 }
 /* Other
@@ -521,10 +521,11 @@ Generated using: hugo gen chromastyles --style=github-dark -- then heavily modif
 .chroma .kt {
   color: #abe338;
 }
-/* Name */
+/* Name
 .chroma .n {
   color: #ffa07a;
-}
+} */
+
 /* NameAttribute */
 .chroma .na {
   @apply text-neutral-50;
@@ -776,9 +777,10 @@ Generated using: hugo gen chromastyles --style=github-dark -- then heavily modif
   color: #ff7b72;
   font-weight: bold;
 }
-/* Punctuation
+/* Punctuation */
 .chroma .p {
-} */
+  color: #abe338;
+}
 
 .cl + .nt {
   @apply text-neutral-50;
