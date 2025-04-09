@@ -3,6 +3,10 @@ languageCode = 'en-us'
 title        = 'esacteksab'
 
 [[menus.main]]
+  identifier = 'home'
+  name       = 'Home'
+  pageRef    = '/'
+  weight     = 10
 
 [params.Author]
   bluesky  = 'esacteksab'
