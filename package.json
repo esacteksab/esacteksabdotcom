@@ -1,8 +1,4 @@
 {
-  "name": "simpl",
-  "version": "0.2.4",
-  "description": "A simpl(e) Hugo Theme",
-  "author": "@esacteksab",
   "scripts": {
     "postcss": "postcss ./assets/css/main.css --config ./postcss.config.js -r"
   },
@@ -37,5 +33,6 @@
         "order": "smacss"
       }
     }
-  }
+  },
+  "packageManager": "pnpm@10.11.0"
 }
