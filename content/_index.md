@@ -23,7 +23,7 @@ unchanged. My personal blog continues to exist at
 Early 2000's'ish I was attending my first VMworld and I signed up for Twitter
 (it was called Twitter back in my day...) on my _terrible_ Blackberry while
 waiting in line. Stuck my phone back in my pocket to not look at Twitter again.
-Fastforward to the following year's VMworld, I go to sign back into Twiter and
+Fastforward to the following year's VMworld, I go to sign back into Twitter and
 _basketcase_ isn't working for a username. :confused: Poke at it, jiggle the
 handle, I finally determined that I fat-fingered 'basketcase' when I signed up.
 I thought "No big deal, I'll just sign up again.". Nope! _basketcase_ was taken.
