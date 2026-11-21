@@ -72,10 +72,6 @@ updates:
       pre-commit-all:
         patterns:
           - "*"
-        update-types:
-          - "major"
-          - "minor"
-          - "patch"
     schedule:
       interval: "weekly"
       day: "friday"
