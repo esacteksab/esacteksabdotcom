@@ -1,6 +1,6 @@
 module github.com/esacteksab/esacteksabdotcom
 
-go 1.26.4
+go 1.27.4
 
 require github.com/esacteksab/simpl v0.13.1 // indirect
 
