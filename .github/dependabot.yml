@@ -69,8 +69,11 @@ updates:
   - package-ecosystem: "pre-commit"
     directory: "/"
     groups:
-      github-actions:
+      pre-commit-all:
+        patterns:
+          - "*"
         update-types:
+          - "major"
           - "minor"
           - "patch"
     schedule:
