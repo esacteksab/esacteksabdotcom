@@ -60,7 +60,7 @@ repos:
           - "--no-codeformatters"
 
   - repo: https://github.com/crate-ci/typos
-    rev: v1.43.5
+    rev: v1.52.2
     hooks:
       - id: typos
         args: [--force-exclude]
